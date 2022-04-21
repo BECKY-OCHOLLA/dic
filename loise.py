@@ -5,7 +5,7 @@
 # }
 # print(thisdis)
 
-us = input(f'hi, what is your email address...... ?/n')
+us = input(f'hi, what is your email address...... ?\n')
 
 print(us)
 
@@ -14,6 +14,21 @@ person = {
     "age" : 25,
     "favourite-movie" : "finding Nemo"
 }
+
+
+person =f""""
+My name is {person['me']} and
+I am {person['age']} years old.
+My favourite movie is {person['favourite-movie']}
+"""
+
+
+print(person)
+
+
+
+
+
 
 
 
